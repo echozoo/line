@@ -1,0 +1,9 @@
+dependencies {
+    compile project(":common")
+    compile "org.springframework.boot:spring-boot-starter-web:$spring_boot_version"
+    compile 'com.spring4all:swagger-spring-boot-starter:1.9.1.RELEASE'
+    compile group: 'org.springframework.boot', name: 'spring-boot-starter-data-mongodb', version: '2.3.4.RELEASE'
+    compile 'org.mongodb:mongodb-driver:3.8.0'
+}
+
+group = "com.athc"

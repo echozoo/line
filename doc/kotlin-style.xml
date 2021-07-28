@@ -1,0 +1,99 @@
+<code_scheme name="google" version="173">
+    <option name="AUTODETECT_INDENTS" value="false" />
+    <option name="OTHER_INDENT_OPTIONS">
+        <value>
+            <option name="INDENT_SIZE" value="2" />
+            <option name="TAB_SIZE" value="2" />
+            <option name="USE_TAB_CHARACTER" value="true" />
+            <option name="SMART_TABS" value="true" />
+        </value>
+    </option>
+    <option name="LINE_SEPARATOR" value="&#xA;" />
+    <option name="CLASS_COUNT_TO_USE_IMPORT_ON_DEMAND" value="100" />
+    <option name="NAMES_COUNT_TO_USE_IMPORT_ON_DEMAND" value="100" />
+    <option name="PACKAGES_TO_USE_IMPORT_ON_DEMAND">
+        <value />
+    </option>
+    <option name="IMPORT_LAYOUT_TABLE">
+        <value>
+            <package name="" withSubpackages="true" static="false" />
+            <emptyLine />
+            <package name="javax" withSubpackages="false" static="false" />
+            <package name="java" withSubpackages="false" static="false" />
+            <emptyLine />
+            <package name="" withSubpackages="true" static="true" />
+        </value>
+    </option>
+    <option name="RIGHT_MARGIN" value="100" />
+    <JavaCodeStyleSettings>
+        <option name="DO_NOT_WRAP_AFTER_SINGLE_ANNOTATION" value="true" />
+        <option name="CLASS_COUNT_TO_USE_IMPORT_ON_DEMAND" value="100" />
+        <option name="NAMES_COUNT_TO_USE_IMPORT_ON_DEMAND" value="100" />
+        <option name="PACKAGES_TO_USE_IMPORT_ON_DEMAND">
+            <value />
+        </option>
+        <option name="IMPORT_LAYOUT_TABLE">
+            <value>
+                <package name="" withSubpackages="true" static="false" />
+                <emptyLine />
+                <package name="javax" withSubpackages="false" static="false" />
+                <package name="java" withSubpackages="false" static="false" />
+                <emptyLine />
+                <package name="" withSubpackages="true" static="true" />
+            </value>
+        </option>
+    </JavaCodeStyleSettings>
+    <XML>
+        <option name="XML_LEGACY_SETTINGS_IMPORTED" value="true" />
+    </XML>
+    <codeStyleSettings language="CSS">
+        <indentOptions>
+            <option name="INDENT_SIZE" value="2" />
+            <option name="TAB_SIZE" value="2" />
+        </indentOptions>
+    </codeStyleSettings>
+    <codeStyleSettings language="Groovy">
+        <indentOptions>
+            <option name="INDENT_SIZE" value="2" />
+            <option name="TAB_SIZE" value="2" />
+        </indentOptions>
+    </codeStyleSettings>
+    <codeStyleSettings language="JAVA">
+        <option name="SPACE_WITHIN_ARRAY_INITIALIZER_BRACES" value="true" />
+        <option name="KEEP_SIMPLE_METHODS_IN_ONE_LINE" value="true" />
+        <option name="KEEP_SIMPLE_LAMBDAS_IN_ONE_LINE" value="true" />
+        <option name="KEEP_SIMPLE_CLASSES_IN_ONE_LINE" value="true" />
+        <option name="METHOD_ANNOTATION_WRAP" value="0" />
+        <option name="CLASS_ANNOTATION_WRAP" value="0" />
+        <option name="FIELD_ANNOTATION_WRAP" value="0" />
+        <option name="ENUM_CONSTANTS_WRAP" value="2" />
+        <indentOptions>
+            <option name="INDENT_SIZE" value="2" />
+            <option name="CONTINUATION_INDENT_SIZE" value="4" />
+            <option name="TAB_SIZE" value="2" />
+        </indentOptions>
+    </codeStyleSettings>
+    <codeStyleSettings language="JSON">
+        <indentOptions>
+            <option name="TAB_SIZE" value="2" />
+        </indentOptions>
+    </codeStyleSettings>
+    <codeStyleSettings language="JavaScript">
+        <indentOptions>
+            <option name="INDENT_SIZE" value="2" />
+            <option name="TAB_SIZE" value="2" />
+        </indentOptions>
+    </codeStyleSettings>
+    <codeStyleSettings language="Stylus">
+        <indentOptions>
+            <option name="TAB_SIZE" value="2" />
+        </indentOptions>
+    </codeStyleSettings>
+    <codeStyleSettings language="kotlin">
+        <indentOptions>
+            <option name="INDENT_SIZE" value="2" />
+            <option name="CONTINUATION_INDENT_SIZE" value="4" />
+            <option name="TAB_SIZE" value="2" />
+        </indentOptions>
+    </codeStyleSettings>
+</code_scheme>

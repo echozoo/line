@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.athc.web.mapper.EasCourseScheduleMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.athc.web.model.EasCourseSchedule">
+        <id column="schedule_id" property="scheduleId"/>
+        <result column="school_year" property="schoolYear"/>
+        <result column="semaster" property="semaster"/>
+        <result column="course_code" property="courseCode"/>
+        <result column="course_name" property="courseName"/>
+        <result column="credit" property="credit"/>
+        <result column="academy_code" property="academyCode"/>
+        <result column="academy_name" property="academyName"/>
+        <result column="classroom_code" property="classroomCode"/>
+        <result column="classroom_name" property="classroomName"/>
+        <result column="classcode" property="classcode"/>
+        <result column="weeks" property="weeks"/>
+        <result column="weekly" property="weekly"/>
+        <result column="classes" property="classes"/>
+        <result column="teachercode" property="teachercode"/>
+        <result column="teachername" property="teachername"/>
+        <result column="weeks_analyse" property="weeksAnalyse"/>
+    </resultMap>
+
+</mapper>

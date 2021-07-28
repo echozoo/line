@@ -1,0 +1,15 @@
+dependencies {
+  compile "org.springframework.boot:spring-boot-starter-web:$spring_boot_version"
+  compile 'com.alibaba:fastjson:1.2.35'
+  compile 'log4j:log4j:1.2.17'
+  compile 'com.alibaba:druid:1.0.25'
+  compile 'org.apache.velocity:velocity:1.7'
+  compile 'com.baomidou:mybatis-plus:2.3'
+  compile 'com.baomidou:mybatisplus-spring-boot-starter:1.0.5'
+  compile 'org.postgresql:postgresql:42.2.16'
+  compile 'com.github.yongjhih:pepk:0.0.1'
+
+}
+
+
+group = 'com.athc'

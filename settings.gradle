@@ -1,0 +1,10 @@
+rootProject.name = 'line'
+include 'pg-mybatis-demo'
+include 'kill'
+include 'mybatis'
+include 'shell'
+include 'common'
+include 'mongo-demo'
+include 'grpc-java-demo'
+include 'grpc-demo'
+

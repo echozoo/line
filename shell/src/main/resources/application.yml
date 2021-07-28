@@ -1,0 +1,12 @@
+server:
+  port: 8002
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://${DB_IP_PORT:127.0.0.1:3306}/wolf?useUnicode=true&characterEncoding=UTF-8&autoReconnect=true&zeroDateTimeBehavior=convertToNull&useSSL=false&slowQueryThresholdMillis=400&autoSlowLog=false&connectTimeout=15000&socketTimeout=${DB_SOCKET_TIMEOUT:15000}
+    username: ${DB_USERNAME:root}
+    password: ${DB_PASSWORD:123456}
+    hikari:
+      connection-test-query: SELECT 1
+      pool-name: core

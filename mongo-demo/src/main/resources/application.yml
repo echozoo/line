@@ -1,0 +1,10 @@
+server:
+  port: 8090
+# mongodb数据库配置
+spring:
+  data:
+    mongodb:
+      uri: mongodb://mongodb://localhost:27017/java_cyclepurchase_tools?authSource=admin&authMechanism=SCRAM-SHA-1
+logging:
+  level:
+    com.dustess.decoration.dao: debug

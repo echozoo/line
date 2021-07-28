@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+option java_package = "proto";
+
+service Greet{
+  rpc seyHello(HelloInput) returns (HelloOutput) {}
+}
+
+message HelloInput {
+  string name = 1;
+}
+
+message HelloOutput{
+  string word = 1;
+}
